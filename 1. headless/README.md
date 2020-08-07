@@ -1,4 +1,4 @@
-## SAMA5D27-SOM1 BASICS: How to compile a demo and boot from SD card
+## SAMA5D27-WLSOM1 BASICS: How to compile a demo and boot from SD card
 
 Buildroot Video Step by Step Guide for SAMA5D27-WLSOM1-EK1 available on [youtube](https://www.youtube.com/) 
 
@@ -42,7 +42,7 @@ git checkout linux4sam_6.0 -b buildroot-at91-linux4sam_6.0
 ```
 #### Configure and compile from sources a demo image:
 ```
-BR2_EXTERNAL=../buildroot-external-microchip/ make sama5d27_som1_ek_headless_defconfig
+BR2_EXTERNAL=../buildroot-external-microchip/ make sama5d27_wlsom1_ek_headless_defconfig
 ```
 
 #### Change some basic system settings: 
@@ -72,7 +72,7 @@ ls -l output/images/
 etcher-electron
 ```
 
-Plug the ready SD card in J12 connector.
+Plug the ready SD card in J9 connector.
 
 #### Play with image:
 ```

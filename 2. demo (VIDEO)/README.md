@@ -21,7 +21,7 @@ The exact PN of the display used for the guide is [KWH043ST12](https://store.com
 
 #### Configure and compile from sources a demo image:
 ```
-BR2_EXTERNAL=../buildroot-external-microchip/ make sama5d27_som1_ek_demo_defconfig
+BR2_EXTERNAL=../buildroot-external-microchip/ make sama5d27_wlsom1_ek_graphics_defconfig
 ```
 
 #### Change some basic system settings: 
