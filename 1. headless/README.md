@@ -5,7 +5,7 @@ Buildroot Video Step by Step Guide for SAMA5D27-WLSOM1-EK1 available on [youtube
 #### Software Pre Requirements:
 - install etcher, check [ubuntu guide](https://github.com/balena-io/etcher) 
 - install minicom
-- TTL-232R-3V3, check [TTL/USB-3.3V ](https://store.comet.bg/Catalogue/Product/48646/) 
+- adapter TTL-232R-3V3, check [TTL/USB-3.3V](https://store.comet.bg/Catalogue/Product/48646/) 
 
 #### Linux update and version check:
 ```
@@ -36,10 +36,10 @@ git clone https://github.com/linux4sam/buildroot-at91.git
 git clone https://github.com/linux4sam/buildroot-external-microchip.git
 
 cd buildroot-external-microchip/
-git checkout linux4sam_6.0 -b buildroot-external-microchip-linux4sam_6.0
+git checkout linux4sam_6.2 -b buildroot-external-microchip-linux4sam_6.2
 
 cd ../buildroot-at91/
-git checkout linux4sam_6.0 -b buildroot-at91-linux4sam_6.0
+git checkout linux4sam_6.2 -b buildroot-at91-linux4sam_6.2
 ```
 #### Configure and compile from sources a demo image:
 ```
@@ -74,6 +74,7 @@ etcher-electron
 ```
 
 Plug the ready SD card in J9 connector.
+Connect the adapter TTL-232R-3V3 to J26
 
 #### Play with image:
 ```
