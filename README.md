@@ -19,5 +19,5 @@ The ATSAMA5D27-WLSOM1 Module integrates a 2-Gbit LPDDR2SDRAM, a Wi-Fi®/Bluetoot
 The baseboard features a wide range of peripherals, as well as a user interface. Connectors and expansion headers allows for easy customization and quick access to leading edge embedded features such as MikroElektronica Click Boards™.
 
 <p align="center">
-  <img width="609" height="504" src="https://github.com/kamval/SAMA5D27-WLSOM1-EK1/blob/master/Documents/a5d27_wlsom1_board.png">
+  <img width="609" height="304" src="https://github.com/kamval/SAMA5D27-WLSOM1-EK1/blob/master/Documents/a5d27_wlsom1_board.png">
 </p>
