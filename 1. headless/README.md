@@ -5,6 +5,7 @@ Buildroot Video Step by Step Guide for SAMA5D27-WLSOM1-EK1 available on [youtube
 #### Software Pre Requirements:
 - install etcher, check [ubuntu guide](https://github.com/balena-io/etcher) 
 - install minicom
+- TTL-232R-3V3, check [TTL/USB-3.3V ](https://store.comet.bg/Catalogue/Product/48646/) 
 
 #### Linux update and version check:
 ```
@@ -52,7 +53,7 @@ make menuconfig
 
 System configuration  --->
         ...
-    [sama5d27-som1] System hostname
+    [sama5d27-wlsom1] System hostname
     [SAMA5D27 Microchip Embedded Demo] System Banner
     [toor] Root password
 

@@ -30,7 +30,7 @@ make menuconfig
 
 System configuration  --->
         ...
-    [sama5d27-som1] System hostname
+    [sama5d27-wlsom1] System hostname
     [SAMA5D27 Microchip Embedded Demo] System Banner
     [toor] Root password
 
