@@ -36,11 +36,15 @@ git clone https://github.com/linux4sam/buildroot-at91.git
 git clone https://github.com/linux4sam/buildroot-external-microchip.git
 
 cd buildroot-external-microchip/
-git checkout linux4sam_6.2 -b buildroot-external-microchip-linux4sam_6.2
+git checkout linux4sam-2020.04 -b buildroot-external-microchip-linux4sam-2020.04
 
 cd ../buildroot-at91/
-git checkout linux4sam_6.2 -b buildroot-at91-linux4sam_6.2
+git checkout linux4sam-2020.04 -b buildroot-at91-linux4sam-2020.04
+
 ```
+
+tip: check current [Linux Kernel](https://www.linux4sam.org/bin/view/Linux4SAM/LinuxKernel#linux4sam_2020_04_tag) 
+
 #### Configure and compile from sources a demo image:
 ```
 BR2_EXTERNAL=../buildroot-external-microchip/ make sama5d27_wlsom1_ek_headless_defconfig
@@ -57,11 +61,25 @@ System configuration  --->
     [SAMA5D27 Microchip Embedded Demo] System Banner
     [toor] Root password
 
+```
+
+#### Add bash support: 
+```
+Target packages  --->
+        ...
+    [*] Shell and utilities  --->
+            ... Shells ***
+            [*] bash
+            [ ] dash      
+            [ ] mksh
+            [ ] zsh
+
 save
 exit
 
 time make
 ```
+
 
 #### Where to find ready image:
 ```
