@@ -68,7 +68,7 @@ System configuration  --->
 Target packages  --->
         ...
     [*] Shell and utilities  --->
-            ... Shells ***
+            *** Shells ***
             [*] bash
             [ ] dash      
             [ ] mksh
