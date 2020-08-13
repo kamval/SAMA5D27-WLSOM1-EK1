@@ -77,7 +77,7 @@ Hit any key to stop autoboot:  0
 Enforce video by entering the following command in u-boot menu: 
 
 ```
-setenv bootcmd 'fatload mmc 0:1 0x24000000 sama5d27_som1_ek.itb; bootm 0x24000000#kernel_dtb#pda4'
+setenv bootcmd 'fatload mmc 0:1 0x24000000 sama5d27_wlsom1_ek.itb; bootm 0x24000000#kernel_dtb#pda4'
 saveenv
 boot
 ```
