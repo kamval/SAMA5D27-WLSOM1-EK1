@@ -63,7 +63,7 @@ System configuration  --->
 
 ```
 
-#### Add bash support: 
+#### Add/Check bash support: 
 ```
 Target packages  --->
         ...

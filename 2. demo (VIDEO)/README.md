@@ -34,6 +34,19 @@ System configuration  --->
     [SAMA5D27 Microchip Embedded Demo] System Banner
     [toor] Root password
 
+```
+
+#### Add/Check bash support: 
+```
+Target packages  --->
+        ...
+    [*] Shell and utilities  --->
+            *** Shells ***
+            [*] bash
+            [ ] dash      
+            [ ] mksh
+            [ ] zsh
+
 save
 exit
 
