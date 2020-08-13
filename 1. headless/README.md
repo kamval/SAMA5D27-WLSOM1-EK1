@@ -43,7 +43,7 @@ git checkout linux4sam-2020.04 -b buildroot-at91-linux4sam-2020.04
 
 ```
 
-tip: check current [Linux Kernel](https://www.linux4sam.org/bin/view/Linux4SAM/LinuxKernel#linux4sam_2020_04_tag) 
+tip: check current [Linux Kernel](https://www.linux4sam.org/bin/view/Linux4SAM/LinuxKernel#linux4sam_2020_04_tag) tags. 
 
 #### Configure and compile from sources a demo image:
 ```
@@ -79,7 +79,6 @@ exit
 
 time make
 ```
-
 
 #### Where to find ready image:
 ```

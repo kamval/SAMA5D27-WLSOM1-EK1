@@ -1,4 +1,4 @@
-### SAMA5D27-SOM1 BASICS: How to compile a demo, add video support and boot from SD0
+### SAMA5D27-WLSOM1 BASICS: How to compile a demo, add video support and boot from SD0
 
 Buildroot Video Step by Step Guide for ATSAMA5D27-WLSOM1-EK1 available on [youtube](https://www.youtube.com/)
 
@@ -57,7 +57,7 @@ time make
 - Find ready image
 - Burn the image to SD card
 
-Plug the ready SD card in J12 connector.
+Plug the ready SD card in J9 connector.
 
 #### Manually select (or enforce) video at boot time:
 
@@ -65,7 +65,7 @@ The compiled demo supports the following display sizes:
 
 - 4.3" TFT LCD, 480x272 - sama5d27_som1_ek_pda4.dtbo, tested with [KWH043ST12](https://store.comet.bg/Catalogue/Product/45269/) 
 - 5.0" TFT LCD, 800x480 - sama5d27_som1_ek_pda5.dtbo, tested with [KWH050ST19](https://store.comet.bg/Catalogue/Product/45270/) 
-- 7.0" TFT LCD, 800x600 - sama5d27_som1_ek_pda7.dtbo / sama5d27_som1_ek_pda7b.dtbo
+- 7.0" TFT LCD, 800x600 - sama5d27_som1_ek_pda7.dtbo / sama5d27_som1_ek_pda7b.dtbo, tested with 
 
 By default the video output is not enabled. You need to enable the environment manualy. To do that press any key during U-Boot, the following text should appear:  
 
